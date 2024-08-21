@@ -1,0 +1,319 @@
+Company,Size,Product Category,Gender,Height (inches),Weight (KG),Bust/Chest (inches),Cup Size,Waist (inches),Hips (inches),Body Shape Index
+Nike,S,Top,Male,68,70,36,Null,30,38,0.79
+Nike,S,Bottom,Male,68,70,36,Null,30,38,0.79
+Nike,M,Top,Male,70,75,39,Null,32,40,0.85
+Nike,M,Bottom,Male,70,75,39,Null,32,40,0.85
+Nike,L,Top,Male,72,80,41,Null,34,42,0.81
+Nike,L,Bottom,Male,72,80,41,Null,34,42,0.81
+Nike,XL,Top,Male,74,85,43,Null,36,44,0.83
+Nike,XL,Bottom,Male,74,85,43,Null,36,44,0.83
+Nike,XXL,Top,Male,76,90,45,Null,38,46,0.85
+Nike,XXL,Bottom,Male,76,90,45,Null,38,46,0.85
+Adidas,XS,Top,Female,62,55,34,A,26,34,0.76
+Adidas,XS,Bottom,Female,62,55,34,A,26,34,0.76
+Adidas,S,Top,Female,64,60,36,B,28,36,0.78
+Adidas,S,Bottom,Female,64,60,36,B,28,36,0.78
+Adidas,M,Top,Female,66,65,38,B,30,38,0.8
+Adidas,M,Bottom,Female,66,65,38,B,30,38,0.8
+Adidas,L,Top,Female,68,70,40,C,32,40,0.82
+Adidas,L,Bottom,Female,68,70,40,C,32,40,0.82
+Adidas,XL,Top,Female,70,75,42,C,34,42,0.84
+Adidas,XL,Bottom,Female,70,75,42,C,34,42,0.84
+Under Armour,XS,Top,Female,62,54,34,A,26,34,0.76
+Under Armour,XS,Bottom,Female,62,54,34,A,26,34,0.76
+Under Armour,S,Top,Female,64,58,36,B,28,36,0.78
+Under Armour,S,Bottom,Female,64,58,36,B,28,36,0.78
+Under Armour,M,Top,Female,66,62,38,B,30,38,0.8
+Under Armour,M,Bottom,Female,66,62,38,B,30,38,0.8
+Under Armour,L,Top,Female,68,66,40,C,32,40,0.82
+Under Armour,L,Bottom,Female,68,66,40,C,32,40,0.82
+Under Armour,XL,Top,Female,70,70,42,C,34,42,0.84
+Under Armour,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Under Armour,XXL,Top,Female,72,75,44,D,36,44,0.86
+Under Armour,XXL,Bottom,Female,72,75,44,D,36,44,0.86
+Puma,XS,Top,Female,62,55,34,A,26,34,0.76
+Puma,XS,Bottom,Female,62,55,34,A,26,34,0.76
+Puma,S,Top,Female,64,60,36,B,28,36,0.78
+Puma,S,Bottom,Female,64,60,36,B,28,36,0.78
+Puma,M,Top,Female,66,65,38,B,30,38,0.8
+Puma,M,Bottom,Female,66,65,38,B,30,38,0.8
+Puma,L,Top,Female,68,70,40,C,32,40,0.82
+Puma,L,Bottom,Female,68,70,40,C,32,40,0.82
+Puma,XL,Top,Female,70,75,42,C,34,42,0.84
+Puma,XL,Bottom,Female,70,75,42,C,34,42,0.84
+Puma,XXL,Top,Female,72,80,44,D,36,44,0.86
+Puma,XXL,Bottom,Female,72,80,44,D,36,44,0.86
+Reebok,S,Top,Male,68,70,36,Null,30,38,0.79
+Reebok,S,Bottom,Male,68,70,36,Null,30,38,0.79
+Reebok,M,Top,Male,70,75,39,Null,32,40,0.85
+Reebok,M,Bottom,Male,70,75,39,Null,32,40,0.85
+Reebok,L,Top,Male,72,80,41,Null,34,42,0.81
+Reebok,L,Bottom,Male,72,80,41,Null,34,42,0.81
+Reebok,XL,Top,Male,74,85,43,Null,36,44,0.83
+Reebok,XL,Bottom,Male,74,85,43,Null,36,44,0.83
+Reebok,XXL,Top,Male,76,90,45,Null,38,46,0.85
+Reebok,XXL,Bottom,Male,76,90,45,Null,38,46,0.85
+New Balance,XS,Top,Female,62,55,34,A,26,34,0.76
+New Balance,XS,Bottom,Female,62,55,34,A,26,34,0.76
+New Balance,S,Top,Female,64,60,36,B,28,36,0.78
+New Balance,S,Bottom,Female,64,60,36,B,28,36,0.78
+New Balance,M,Top,Female,66,65,38,B,30,38,0.8
+New Balance,M,Bottom,Female,66,65,38,B,30,38,0.8
+New Balance,L,Top,Female,68,70,40,C,32,40,0.82
+New Balance,L,Bottom,Female,68,70,40,C,32,40,0.82
+New Balance,XL,Top,Female,70,75,42,C,34,42,0.84
+New Balance,XL,Bottom,Female,70,75,42,C,34,42,0.84
+New Balance,XXL,Top,Female,72,80,44,D,36,44,0.86
+New Balance,XXL,Bottom,Female,72,80,44,D,36,44,0.86
+ASICS,S,Top,Male,68,72,38,Null,31,39,0.8
+ASICS,S,Bottom,Male,68,72,38,Null,31,39,0.8
+ASICS,M,Top,Male,70,75,39,Null,32,40,0.85
+ASICS,M,Bottom,Male,70,75,39,Null,32,40,0.85
+ASICS,L,Top,Male,72,80,41,Null,34,42,0.81
+ASICS,L,Bottom,Male,72,80,41,Null,34,42,0.81
+ASICS,XL,Top,Male,74,85,43,Null,36,44,0.83
+ASICS,XL,Bottom,Male,74,85,43,Null,36,44,0.83
+ASICS,XXL,Top,Male,76,90,45,Null,38,46,0.85
+ASICS,XXL,Bottom,Male,76,90,45,Null,38,46,0.85
+Columbia,XS,Top,Female,62,54,34,A,26,34,0.76
+Columbia,XS,Bottom,Female,62,54,34,A,26,34,0.76
+Columbia,S,Top,Female,64,58,36,B,28,36,0.78
+Columbia,S,Bottom,Female,64,58,36,B,28,36,0.78
+Columbia,M,Top,Female,66,62,38,B,30,38,0.8
+Columbia,M,Bottom,Female,66,62,38,B,30,38,0.8
+Columbia,L,Top,Female,68,66,40,C,32,40,0.82
+Columbia,L,Bottom,Female,68,66,40,C,32,40,0.82
+Columbia,XL,Top,Female,70,70,42,C,34,42,0.84
+Columbia,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Columbia,XXL,Top,Female,72,75,44,D,36,44,0.86
+Columbia,XXL,Bottom,Female,72,75,44,D,36,44,0.86
+The North Face,S,Top,Male,68,72,38,Null,31,39,0.8
+The North Face,S,Bottom,Male,68,72,38,Null,31,39,0.8
+The North Face,M,Top,Male,70,75,39,Null,32,40,0.85
+The North Face,M,Bottom,Male,70,75,39,Null,32,40,0.85
+Head,XS,Top,Female,62,50,34,A,26,34,0.76
+Head,XS,Bottom,Female,62,50,34,A,26,34,0.76
+Head,S,Top,Female,64,55,36,B,28,36,0.78
+Head,S,Bottom,Female,64,55,36,B,28,36,0.78
+Head,M,Top,Female,66,60,38,B,30,38,0.8
+Head,M,Bottom,Female,66,60,38,B,30,38,0.8
+Head,L,Top,Female,68,65,40,C,32,40,0.82
+Head,L,Bottom,Female,68,65,40,C,32,40,0.82
+Head,XL,Top,Female,70,70,42,C,34,42,0.84
+Head,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Head,XXL,Top,Female,72,75,44,D,36,44,0.86
+Head,XXL,Bottom,Female,72,75,44,D,36,44,0.86
+Augusta Sportswear,XS,Top,Male,68,70,36,Null,30,38,0.79
+Augusta Sportswear,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Augusta Sportswear,S,Top,Male,70,75,39,Null,32,40,0.85
+Augusta Sportswear,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Augusta Sportswear,M,Top,Male,72,80,41,Null,34,42,0.81
+Augusta Sportswear,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Augusta Sportswear,L,Top,Male,74,85,43,Null,36,44,0.83
+Augusta Sportswear,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Augusta Sportswear,XL,Top,Male,76,90,45,Null,38,46,0.85
+Augusta Sportswear,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Augusta Sportswear,XXL,Top,Male,78,95,47,Null,40,48,0.87
+Augusta Sportswear,XXL,Bottom,Male,78,95,47,Null,40,48,0.87
+Russell Athletic,XS,Top,Female,62,53,34,A,26,34,0.76
+Russell Athletic,XS,Bottom,Female,62,53,34,A,26,34,0.76
+Russell Athletic,S,Top,Female,64,58,36,B,28,36,0.78
+Russell Athletic,S,Bottom,Female,64,58,36,B,28,36,0.78
+Russell Athletic,M,Top,Female,66,63,38,B,30,38,0.8
+Russell Athletic,M,Bottom,Female,66,63,38,B,30,38,0.8
+Russell Athletic,L,Top,Female,68,68,40,C,32,40,0.82
+Russell Athletic,L,Bottom,Female,68,68,40,C,32,40,0.82
+Russell Athletic,XL,Top,Female,70,73,42,C,34,42,0.84
+Russell Athletic,XL,Bottom,Female,70,73,42,C,34,42,0.84
+Russell Athletic,XXL,Top,Female,72,78,44,D,36,44,0.86
+Russell Athletic,XXL,Bottom,Female,72,78,44,D,36,44,0.86
+Badger Sportswear,XS,Top,Male,68,68,36,Null,30,38,0.79
+Badger Sportswear,XS,Bottom,Male,68,68,36,Null,30,38,0.79
+Badger Sportswear,S,Top,Male,70,72,38,Null,32,40,0.81
+Badger Sportswear,S,Bottom,Male,70,72,38,Null,32,40,0.81
+Badger Sportswear,M,Top,Male,72,76,40,Null,34,42,0.83
+Badger Sportswear,M,Bottom,Male,72,76,40,Null,34,42,0.83
+Badger Sportswear,L,Top,Male,74,80,42,Null,36,44,0.85
+Badger Sportswear,L,Bottom,Male,74,80,42,Null,36,44,0.85
+Badger Sportswear,XL,Top,Male,76,84,44,Null,38,46,0.87
+Badger Sportswear,XL,Bottom,Male,76,84,44,Null,38,46,0.87
+Champion,XS,Top,Female,62,50,34,A,26,34,0.76
+Champion,XS,Bottom,Female,62,50,34,A,26,34,0.76
+Champion,S,Top,Female,64,55,36,B,28,36,0.78
+Champion,S,Bottom,Female,64,55,36,B,28,36,0.78
+Champion,M,Top,Female,66,60,38,B,30,38,0.8
+Champion,M,Bottom,Female,66,60,38,B,30,38,0.8
+Champion,L,Top,Female,68,65,40,C,32,40,0.82
+Champion,L,Bottom,Female,68,65,40,C,32,40,0.82
+Champion,XL,Top,Female,70,70,42,C,34,42,0.84
+Champion,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Mizuno,XS,Top,Male,68,70,36,Null,30,38,0.79
+Mizuno,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Mizuno,S,Top,Male,70,75,39,Null,32,40,0.85
+Mizuno,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Mizuno,M,Top,Male,72,80,41,Null,34,42,0.81
+Mizuno,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Mizuno,L,Top,Male,74,85,43,Null,36,44,0.83
+Mizuno,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Mizuno,XL,Top,Male,76,90,45,Null,38,46,0.85
+Mizuno,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Fila,XS,Top,Female,62,52,34,A,26,34,0.76
+Fila,XS,Bottom,Female,62,52,34,A,26,34,0.76
+Fila,S,Top,Female,64,57,36,B,28,36,0.78
+Fila,S,Bottom,Female,64,57,36,B,28,36,0.78
+Fila,M,Top,Female,66,62,38,B,30,38,0.8
+Fila,M,Bottom,Female,66,62,38,B,30,38,0.8
+Fila,L,Top,Female,68,67,40,C,32,40,0.82
+Fila,L,Bottom,Female,68,67,40,C,32,40,0.82
+Fila,XL,Top,Female,70,72,42,C,34,42,0.84
+Fila,XL,Bottom,Female,70,72,42,C,34,42,0.84
+Sport-Tek,XS,Top,Male,68,70,36,Null,30,38,0.79
+Sport-Tek,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Sport-Tek,S,Top,Male,70,75,39,Null,32,40,0.85
+Sport-Tek,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Sport-Tek,M,Top,Male,72,80,41,Null,34,42,0.81
+Sport-Tek,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Sport-Tek,L,Top,Male,74,85,43,Null,36,44,0.83
+Sport-Tek,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Sport-Tek,XL,Top,Male,76,90,45,Null,38,46,0.85
+Sport-Tek,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Umbro,XS,Top,Female,62,50,34,A,26,34,0.76
+Umbro,XS,Bottom,Female,62,50,34,A,26,34,0.76
+Umbro,S,Top,Female,64,55,36,B,28,36,0.78
+Umbro,S,Bottom,Female,64,55,36,B,28,36,0.78
+Umbro,M,Top,Female,66,60,38,B,30,38,0.8
+Umbro,M,Bottom,Female,66,60,38,B,30,38,0.8
+Umbro,L,Top,Female,68,65,40,C,32,40,0.82
+Umbro,L,Bottom,Female,68,65,40,C,32,40,0.82
+Umbro,XL,Top,Female,70,70,42,C,34,42,0.84
+Umbro,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Anta Sports,XS,Top,Male,68,70,36,Null,30,38,0.79
+Anta Sports,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Anta Sports,S,Top,Male,70,75,39,Null,32,40,0.85
+Anta Sports,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Anta Sports,M,Top,Male,72,80,41,Null,34,42,0.81
+Anta Sports,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Anta Sports,L,Top,Male,74,85,43,Null,36,44,0.83
+Anta Sports,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Anta Sports,XL,Top,Male,76,90,45,Null,38,46,0.85
+Anta Sports,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Skims,XS,Top,Female,62,55,34,A,26,34,0.76
+Skims,XS,Bottom,Female,62,55,34,A,26,34,0.76
+Skims,S,Top,Female,64,60,36,B,28,36,0.78
+Skims,S,Bottom,Female,64,60,36,B,28,36,0.78
+Skims,M,Top,Female,66,65,38,B,30,38,0.8
+Skims,M,Bottom,Female,66,65,38,B,30,38,0.8
+Skims,L,Top,Female,68,70,40,C,32,40,0.82
+Skims,L,Bottom,Female,68,70,40,C,32,40,0.82
+Skims,XL,Top,Female,70,75,42,C,34,42,0.84
+Skims,XL,Bottom,Female,70,75,42,C,34,42,0.84
+Vuori,XS,Top,Male,68,70,36,Null,30,38,0.79
+Vuori,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Vuori,S,Top,Male,70,75,39,Null,32,40,0.85
+Vuori,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Vuori,M,Top,Male,72,80,41,Null,34,42,0.81
+Vuori,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Vuori,L,Top,Male,74,85,43,Null,36,44,0.83
+Vuori,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Vuori,XL,Top,Male,76,90,45,Null,38,46,0.85
+Vuori,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Clove Shoes,XS,Top,Female,62,52,34,A,26,34,0.76
+Clove Shoes,XS,Bottom,Female,62,52,34,A,26,34,0.76
+Clove Shoes,S,Top,Female,64,57,36,B,28,36,0.78
+Clove Shoes,S,Bottom,Female,64,57,36,B,28,36,0.78
+Clove Shoes,M,Top,Female,66,62,38,B,30,38,0.8
+Clove Shoes,M,Bottom,Female,66,62,38,B,30,38,0.8
+Clove Shoes,L,Top,Female,68,67,40,C,32,40,0.82
+Clove Shoes,L,Bottom,Female,68,67,40,C,32,40,0.82
+Clove Shoes,XL,Top,Female,70,72,42,C,34,42,0.84
+Clove Shoes,XL,Bottom,Female,70,72,42,C,34,42,0.84
+True Classic,XS,Top,Male,68,70,36,Null,30,38,0.79
+True Classic,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+True Classic,S,Top,Male,70,75,39,Null,32,40,0.85
+True Classic,S,Bottom,Male,70,75,39,Null,32,40,0.85
+True Classic,M,Top,Male,72,80,41,Null,34,42,0.81
+True Classic,M,Bottom,Male,72,80,41,Null,34,42,0.81
+True Classic,L,Top,Male,74,85,43,Null,36,44,0.83
+True Classic,L,Bottom,Male,74,85,43,Null,36,44,0.83
+True Classic,XL,Top,Male,76,90,45,Null,38,46,0.85
+True Classic,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+StockX,XS,Top,Female,62,50,34,A,26,34,0.76
+StockX,XS,Bottom,Female,62,50,34,A,26,34,0.76
+StockX,S,Top,Female,64,55,36,B,28,36,0.78
+StockX,S,Bottom,Female,64,55,36,B,28,36,0.78
+StockX,M,Top,Female,66,60,38,B,30,38,0.8
+StockX,M,Bottom,Female,66,60,38,B,30,38,0.8
+StockX,L,Top,Female,68,65,40,C,32,40,0.82
+StockX,L,Bottom,Female,68,65,40,C,32,40,0.82
+StockX,XL,Top,Female,70,70,42,C,34,42,0.84
+StockX,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Rebag,XS,Top,Male,68,70,36,Null,30,38,0.79
+Rebag,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Rebag,S,Top,Male,70,75,39,Null,32,40,0.85
+Rebag,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Rebag,M,Top,Male,72,80,41,Null,34,42,0.81
+Rebag,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Rebag,L,Top,Male,74,85,43,Null,36,44,0.83
+Rebag,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Rebag,XL,Top,Male,76,90,45,Null,38,46,0.85
+Rebag,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+American Eagle Outfitters,XS,Top,Female,62,50,34,A,26,34,0.76
+American Eagle Outfitters,XS,Bottom,Female,62,50,34,A,26,34,0.76
+American Eagle Outfitters,S,Top,Female,64,55,36,B,28,36,0.78
+American Eagle Outfitters,S,Bottom,Female,64,55,36,B,28,36,0.78
+American Eagle Outfitters,M,Top,Female,66,60,38,B,30,38,0.8
+American Eagle Outfitters,M,Bottom,Female,66,60,38,B,30,38,0.8
+American Eagle Outfitters,L,Top,Female,68,65,40,C,32,40,0.82
+American Eagle Outfitters,L,Bottom,Female,68,65,40,C,32,40,0.82
+American Eagle Outfitters,XL,Top,Female,70,70,42,C,34,42,0.84
+American Eagle Outfitters,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Levi's,XS,Top,Male,68,70,36,Null,30,38,0.79
+Levi's,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Levi's,S,Top,Male,70,75,39,Null,32,40,0.85
+Levi's,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Levi's,M,Top,Male,72,80,41,Null,34,42,0.81
+Levi's,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Levi's,L,Top,Male,74,85,43,Null,36,44,0.83
+Levi's,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Levi's,XL,Top,Male,76,90,45,Null,38,46,0.85
+Levi's,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+H&M,XS,Top,Female,62,53,34,A,26,34,0.76
+H&M,XS,Bottom,Female,62,53,34,A,26,34,0.76
+H&M,S,Top,Female,64,58,36,B,28,36,0.78
+H&M,S,Bottom,Female,64,58,36,B,28,36,0.78
+H&M,M,Top,Female,66,63,38,B,30,38,0.8
+H&M,M,Bottom,Female,66,63,38,B,30,38,0.8
+H&M,L,Top,Female,68,68,40,C,32,40,0.82
+H&M,L,Bottom,Female,68,68,40,C,32,40,0.82
+H&M,XL,Top,Female,70,73,42,C,34,42,0.84
+H&M,XL,Bottom,Female,70,73,42,C,34,42,0.84
+Uniqlo,XS,Top,Male,68,70,36,Null,30,38,0.79
+Uniqlo,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Uniqlo,S,Top,Male,70,75,39,Null,32,40,0.85
+Uniqlo,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Uniqlo,M,Top,Male,72,80,41,Null,34,42,0.81
+Uniqlo,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Uniqlo,L,Top,Male,74,85,43,Null,36,44,0.83
+Uniqlo,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Uniqlo,XL,Top,Male,76,90,45,Null,38,46,0.85
+Uniqlo,XL,Bottom,Male,76,90,45,Null,38,46,0.85
+Zara,XS,Top,Female,62,50,34,A,26,34,0.76
+Zara,XS,Bottom,Female,62,50,34,A,26,34,0.76
+Zara,S,Top,Female,64,55,36,B,28,36,0.78
+Zara,S,Bottom,Female,64,55,36,B,28,36,0.78
+Zara,M,Top,Female,66,60,38,B,30,38,0.8
+Zara,M,Bottom,Female,66,60,38,B,30,38,0.8
+Zara,L,Top,Female,68,65,40,C,32,40,0.82
+Zara,L,Bottom,Female,68,65,40,C,32,40,0.82
+Zara,XL,Top,Female,70,70,42,C,34,42,0.84
+Zara,XL,Bottom,Female,70,70,42,C,34,42,0.84
+Banana Republic,XS,Top,Male,68,70,36,Null,30,38,0.79
+Banana Republic,XS,Bottom,Male,68,70,36,Null,30,38,0.79
+Banana Republic,S,Top,Male,70,75,39,Null,32,40,0.85
+Banana Republic,S,Bottom,Male,70,75,39,Null,32,40,0.85
+Banana Republic,M,Top,Male,72,80,41,Null,34,42,0.81
+Banana Republic,M,Bottom,Male,72,80,41,Null,34,42,0.81
+Banana Republic,L,Top,Male,74,85,43,Null,36,44,0.83
+Banana Republic,L,Bottom,Male,74,85,43,Null,36,44,0.83
+Banana Republic,XL,Top,Male,76,90,45,Null,38,46,0.85
+Banana Republic,XL,Bottom,Male,76,90,45,Null,38,46,0.85
