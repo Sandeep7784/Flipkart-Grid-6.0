@@ -74,20 +74,22 @@ def pinecone_vector_store(data):
 
   print(f"Index '{index_name}' has been created and populated with user body measurements.")
 
-def read_csv_to_dict(filename):
-    data_dict = {}
-    
-    with open(filename, mode='r') as file:
-        csv_reader = csv.reader(file)
-        headers = next(csv_reader)
-        
-        for row in csv_reader:
-            user_id = random.randint(1000, 9999)
-            data_dict[user_id] = {headers[i]: row[i] for i in range(len(headers))}
+def read_csv(filename):
+  data_dict = {}
+  allowed_headers = ["user_id", "product_category", "gender", "height", "weight", "chest", "cup_size", "waist", "hips", "body_shape_index"]
 
-    return data_dict
+  with open(filename, mode='r') as file:
+    csv_reader = csv.reader(file)
+    headers = next(csv_reader)
 
-filename = './data.csv'
-data = read_csv_to_dict(filename)
+    for row in csv_reader:
+      user_id = row[0]
+      data_dict[user_id] = {headers[i]: row[i] for i in range(len(headers)) if headers[i] in allowed_headers}
 
-pinecone_vector_store(data)
+  return data_dict
+
+filename = 'data.csv'
+
+data = read_csv(filename)
+
+# pinecone_vector_store(data)
