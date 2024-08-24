@@ -2,6 +2,7 @@ import csv
 from langsmith import Client
 from dotenv import load_dotenv
 import os
+import pandas as pd
 
 load_dotenv()
 
@@ -10,7 +11,7 @@ os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGCHAIN")
 client = Client()
 
 # Define dataset
-dataset_name = "Body Measurements Size Dataset"
+dataset_name = "Body"
 dataset = client.create_dataset(dataset_name)
 
 def determine_size(gender, height, weight, bust_chest, waist, hips):
@@ -54,22 +55,26 @@ inputs = []
 outputs = []
 
 # Read from the CSV file
-with open('test_data.csv', 'r', newline='') as csvfile:
-    csv_reader = csv.DictReader(csvfile)
-    for row in csv_reader:
-        size = determine_size(row["Gender"], row["Height"], float(row["Weight"]), 
-                              float(row["Bust/Chest"]), float(row["Waist"]), float(row["Hips"]))
-        
-        # Generate input in the requested format
-        inputs.append({
-            "question": f"What is the size for a {row['Gender']} with height {row['Height']}, weight {row['Weight']}, "
-                        f"bust/chest {row['Bust/Chest']}, waist {row['Waist']}, and hips {row['Hips']}?"
-        })
-        
-        # Generate output in the requested format
-        outputs.append({
-            "answer": f"The size is {size}."
-        })
+# with open('test_data.csv', 'r', newline='') as csvfile:
+# with open('test_data.csv', 'r', newline='') as csvfile:
+df = pd.read_csv('test_data.csv')
+
+# csv_reader = csv.DictReader(csvfile)
+df = df.head(5)
+for _, row in df.iterrows():
+    size = determine_size(row["Gender"], row["Height"], float(row["Weight"]), 
+                            float(row["Bust/Chest"]), float(row["Waist"]), float(row["Hips"]))
+    
+    # Generate input in the requested format
+    inputs.append({
+        "question": f"What is the size for a {row['Gender']} with height {row['Height']}, weight {row['Weight']}, "
+                    f"bust/chest {row['Bust/Chest']}, waist {row['Waist']}, and hips {row['Hips']}?"
+    })
+    
+    # Generate output in the requested format
+    outputs.append({
+        "answer": f"The size is {size}."
+    })
 # print(inputs[1])
 # print(outputs[1])
 # Create examples in the dataset
