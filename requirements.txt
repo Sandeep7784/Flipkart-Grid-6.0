@@ -5,6 +5,8 @@ annotated-types==0.7.0
 anyio==4.4.0
 asgiref==3.8.1
 async-timeout==4.0.3
+async-exit-stack
+async-generator
 attrs==24.2.0
 backoff==2.2.1
 bcrypt==4.2.0
@@ -26,7 +28,7 @@ flatbuffers==24.3.25
 frozenlist==1.4.1
 fsspec==2024.6.1
 google-auth==2.34.0
-googleapis-common-protos==1.63.2
+googleapis-common-protos
 graphlib-backport==1.1.0
 greenlet==3.0.3
 grpcio==1.65.5
@@ -64,7 +66,7 @@ multidict==6.0.5
 mypy-extensions==1.0.0
 numpy==1.24.4
 oauthlib==3.2.2
-onnxruntime==1.16.3
+onnxruntime
 openai==1.42.0
 opentelemetry-api==1.26.0
 opentelemetry-exporter-otlp-proto-common==1.26.0
@@ -72,18 +74,19 @@ opentelemetry-exporter-otlp-proto-grpc==1.26.0
 opentelemetry-instrumentation==0.47b0
 opentelemetry-instrumentation-asgi==0.47b0
 opentelemetry-instrumentation-fastapi==0.47b0
-opentelemetry-proto==1.26.0
+opentelemetry-proto
 opentelemetry-sdk==1.26.0
 opentelemetry-semantic-conventions==0.47b0
 opentelemetry-util-http==0.47b0
 orjson==3.10.7
 overrides==7.7.0
 packaging==24.1
+passlib[bcrypt]
 pinecone-client==5.0.1
 pinecone-plugin-inference==1.0.3
 pinecone-plugin-interface==0.0.7
 posthog==3.5.0
-protobuf==5.27.3
+protobuf
 pyasn1==0.6.0
 pyasn1-modules==0.4.0
 pydantic==2.8.2
@@ -92,6 +95,8 @@ pygments==2.18.0
 PyPika==0.48.9
 pysqlite3-binary
 pyproject-hooks==1.1.0
+python-jose[cryptography]
+python-multipart
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 PyYAML==6.0.2
